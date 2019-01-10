@@ -49,7 +49,7 @@ public class ThreeSum {
             while (lo < hi) {
                 if (nums[lo] + nums[hi] == sum) {
                     list.add(Arrays.asList(nums[i], nums[lo], nums[hi]));
-                    while (lo < nums.length - 1 && nums[lo + 1] == nums[lo])
+                    while (lo < nums.length - 1 && nums[lo + 1] == nums[lo]) //这里可以去重，因为自己与自己和为0只有可能是0，应该是0，0，0这种情况一定会覆盖到
                         lo++;
                     while (hi > 0 && nums[hi] == nums[hi - 1])
                         hi--;
@@ -68,7 +68,7 @@ public class ThreeSum {
 
 
     public static void main(String[] args) {
-        int [] nums = {-1,0,1,2,-1,4};
+        int [] nums = {-1,-1,0,0,0,1};
         System.out.println(threeSum2(nums));
     }
 
