@@ -7,7 +7,7 @@ import java.util.Stack;
 // 会有overflow！！
 public class ReverseInteger {
     public static int reverse(int x) {
-        if (x == 0)
+       if (x == 0)
             return x;
        // boolean nega = x < 0; 不用
 
