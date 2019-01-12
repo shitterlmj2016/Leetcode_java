@@ -22,7 +22,7 @@ public class AddTwoNumbers {
 
         }
 
-        if(sum == 1)
+        if (sum == 1)
             curr.next = new ListNode(1);//进位
 
         return dummy.next;
@@ -36,3 +36,4 @@ public class AddTwoNumbers {
             val = x;
         }
     }
+}
