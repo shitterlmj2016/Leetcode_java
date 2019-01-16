@@ -7,6 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Sum" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DuoPointer" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BackTracking" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Math" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BinarySearch" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
