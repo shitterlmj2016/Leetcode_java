@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/BinarySearch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BucketSort" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BitOperation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DP" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
