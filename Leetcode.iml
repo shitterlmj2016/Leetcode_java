@@ -9,6 +9,8 @@
       <sourceFolder url="file://$MODULE_DIR$/BackTracking" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Math" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BinarySearch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BucketSort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BitOperation" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
