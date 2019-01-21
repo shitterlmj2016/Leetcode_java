@@ -3,9 +3,9 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Others" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sum" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/DuoPointer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TwoPointers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BackTracking" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Math" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BinarySearch" isTestSource="false" />
@@ -13,6 +13,8 @@
       <sourceFolder url="file://$MODULE_DIR$/BitOperation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DP" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Favourite!!!!!!!!!!!!!!!!!!!!!!!" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DFS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BruteFroce" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
