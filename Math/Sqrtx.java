@@ -9,19 +9,21 @@
 public class Sqrtx {
 
     public static int mySqrt(int x) {
-        long lo = 0;
-        long hi = x;
+        int lo = 0;
+        int hi = x;
         while (lo <= hi) {
             long mid = (hi - lo) / 2 + lo;
-            if (mid * mid > x || mid * mid < 0) //overflow
-                hi = mid - 1;
-            else lo = mid + 1;
+            if (mid * mid == x)
+                return (int) mid;
+            else if (mid * mid > x) //overflow
+                hi = (int) mid - 1;
+            else lo = (int) mid + 1;
         }
-        int res = (int)((lo + hi) / 2);
-        return res;
+        if (hi * hi < x) return hi;
+        else return lo;
     }
 
     public static void main(String[] args) {
-        System.out.println(2147395599-Integer.MAX_VALUE);
+
     }
 }
