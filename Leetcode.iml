@@ -19,6 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Greedy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LinkedList" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SlidingWindow" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Tree" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
