@@ -6,12 +6,12 @@ import java.util.Queue;
 /**
  * This is a comment!
  *
- * @class: BinaryTreeLevelOrderTraversalII
- * @description: 107. Binary Tree Level Order Traversal II
+ * @class: BinaryTreeZigzagLevelOrderTraversal
+ * @description: 103. Binary Tree Zigzag Level Order Traversal
  * @author: Xincheng Huang - xinchenh
- * @create: 01-27-2019 11:24
+ * @create: 01-27-2019 11:55
  **/
-public class BinaryTreeLevelOrderTraversalII {
+public class BinaryTreeZigzagLevelOrderTraversal {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         if (root == null)
@@ -38,6 +38,6 @@ public class BinaryTreeLevelOrderTraversalII {
             level++;
         }
         return res;
-
     }
-}
+    }
+
