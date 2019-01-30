@@ -18,4 +18,12 @@ public class BestTimetoBuyandSellStock {
         }
         return profit;
     }
+
+    public static void main(String[] args) {
+        int res = 1;
+        while (true) {
+
+            System.out.println(res*=2);
+        }
+    }
 }
