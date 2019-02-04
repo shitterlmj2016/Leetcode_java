@@ -12,7 +12,7 @@ import java.util.List;
 public class UniqueBinarySearchTreesII {
 
     public static List<TreeNode> generateTrees(int n) {
-        List<TreeNode> res = new ArrayList<>();
+       List<TreeNode> res = new ArrayList<>();
         if (n <= 0)
             return res;
         return helper(1, n);
