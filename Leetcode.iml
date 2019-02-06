@@ -21,6 +21,7 @@
       <sourceFolder url="file://$MODULE_DIR$/SlidingWindow" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Tree" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BFS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UndirectedGraph" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
