@@ -24,13 +24,13 @@ public class TwoSumII {
     }
 }
 
-class TwoSum {
+class TwoSumm {
     /**
      * Initialize your data structure here.
      */
     HashMap<Integer, Integer> map = new HashMap<>();
 
-    public TwoSum() {
+    public TwoSumm() {
     }
 
     /**
