@@ -26,6 +26,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Overflow" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/TopologicalSort" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Trie" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MergeSort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/QuickSelect" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
