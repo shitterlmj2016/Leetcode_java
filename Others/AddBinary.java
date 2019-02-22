@@ -2,6 +2,7 @@ import java.util.Stack;
 
 public class AddBinary {
 
+
     public static String addBinary(String a, String b) {
 
         Stack<String> stack = new Stack<>();
