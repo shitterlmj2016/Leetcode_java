@@ -5,6 +5,7 @@ public class DifferentWaystoAddParentheses {
     public List<Integer> diffWaysToCompute(String input) {
         if (input == null || input.length() == 0)
             return new ArrayList<>();
+
         List<Integer> res = new ArrayList<>();
         for (int i = 0; i < input.length(); i++) {
             char c = input.charAt(i);
@@ -15,11 +16,20 @@ public class DifferentWaystoAddParentheses {
                 ) {
                     for (int r : right
                     ) {
-                        if(c=='+')
+                        if (c == '+')
+                            res.add(l + r);
+                        if (c == '-')
+                            res.add(l - r);
+                        if (c == '*')
+                            res.add(r * l);
                     }
                 }
             }
+        }
 
+        //只有数字，没有符号
+        if (res.size() == 0) {
+            res.add(Integer.valueOf(input));
         }
         return res;
     }
