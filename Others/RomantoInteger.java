@@ -4,7 +4,7 @@ public class RomantoInteger {
 
         if (s == null || s.length() == 0)
             return 0;
-        String[] roman = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+        String[] roman = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "v", "IV", "I"};
         int[] val = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
 
         int start = 0;
