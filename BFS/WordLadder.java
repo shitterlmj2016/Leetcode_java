@@ -15,8 +15,9 @@ public class WordLadder {
     public static int ladderLength(String beginWord, String endWord, List<String> wordList) {
         HashSet<String> set = new HashSet<>(wordList);
 
-        if (set.contains(beginWord))
+        if (set.contains(beginWord)) {
             set.remove(beginWord);
+        }
 
         Queue<String> queue = new LinkedList<>();
         queue.offer(beginWord);
