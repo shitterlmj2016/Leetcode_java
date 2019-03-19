@@ -43,8 +43,7 @@ public class BestTimetoBuyandSellStockIV {
     }
 
     public static void main(String[] args) {
-        int a[] = {2, 1, 2, 0, 1};
-        maxProfit(2, a);
+        System.out.println(System.getProperty("os.name"));
     }
 
 }
