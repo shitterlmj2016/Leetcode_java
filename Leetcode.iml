@@ -31,6 +31,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Voting" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CountSort" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Queue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UnionFind" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
