@@ -1,6 +1,6 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.List;
 
 public class NumberofIslandsII {
@@ -10,6 +10,7 @@ public class NumberofIslandsII {
         List<Integer> res = new ArrayList<>();
         if (m == 0 || n == 0) return res;
 
+        //
         int count = 0;
         int[] roots = new int[m * n];
         Arrays.fill(roots, -1);
@@ -33,9 +34,12 @@ public class NumberofIslandsII {
                     position = neighbour;
                     count--;
                 }
+
             }
             res.add(count);
         }
+        printArray(roots);
+        System.out.println(count);
         return res;
     }
 
@@ -44,5 +48,22 @@ public class NumberofIslandsII {
             i = roots[i];
         }
         return i;
+    }
+
+
+    private void printArray(int[] roots) {
+        System.out.print("[ ");
+        for (int i = 0; i < roots.length; i++) {
+            System.out.print(roots[i] + " ");
+        }
+        System.out.println("]");
+    }
+
+
+    public static void main(String[] args) {
+//        int[][] pos = {{0, 0}, {0, 2}, {1, 1}, {0, 1}};
+//        NumberofIslandsII n = new NumberofIslandsII();
+//        n.numIslands2(2, 3, pos);
+        System.out.println(Calendar.getInstance().get(Calendar.DAY_OF_YEAR));
     }
 }
