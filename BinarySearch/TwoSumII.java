@@ -43,7 +43,7 @@ class TwoSumm {
     }
 
     /**
-     * Find if there exists any pair of numbers which sum is equal to the value.
+     * Find if there exists any pair of numbers which tree is equal to the value.
      */
     public boolean find(int value) {
         for (int i : map.keySet()

@@ -38,7 +38,7 @@ public class CombinationSumII {
      * @Author xinchenh
      * @Description
      * @Date 20:05 2019/1/16
-     * @Param [list, sum, start]
+     * @Param [list, tree, start]
      * @return void
      **/
     private void help(ArrayList<Integer> list, int sum, int start) {

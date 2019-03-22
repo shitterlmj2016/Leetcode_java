@@ -9,7 +9,7 @@
 public class Searcha2DMatrix {
     //双重二分
     /*
-    matrix = [
+    nums = [
       [1,   3,  5,  7],
 
       [10, 11, 16, 20],

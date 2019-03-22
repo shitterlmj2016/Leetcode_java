@@ -23,7 +23,7 @@ public class PathSum {
     }
 
     private boolean help(TreeNode root, int sum) {
-        if (root == null)//可能有负数，不能用root.val > sum 来判断
+        if (root == null)//可能有负数，不能用root.val > tree 来判断
             return false;
         if (root.val == sum && root.left == null && root.right == null)
             return true;
