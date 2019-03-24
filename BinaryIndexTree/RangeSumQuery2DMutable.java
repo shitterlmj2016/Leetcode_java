@@ -1,7 +1,6 @@
 public class RangeSumQuery2DMutable {
 
     public static void testWeird(int i, int j) {
-        //不能这么写，第二轮的时候j已经不行了！！！
         for (; i > 0; i -= i & -i) {
             for (; j > 0; j -= j & -j) {
                 System.out.println("i = " + i + " j = " + j);
