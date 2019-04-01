@@ -16,8 +16,8 @@ public class BinaryTreeVerticalOrderTraversal {
     private int min;
     private int max;
 
-    public List<List<Integer>> verticalOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
+        public List<List<Integer>> verticalOrder(TreeNode root) {
         if (root == null) return res;
         helper(root, 0);
 

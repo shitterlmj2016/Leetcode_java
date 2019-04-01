@@ -33,6 +33,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Queue" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/UnionFind" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BinaryIndexTree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Answers" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
