@@ -47,6 +47,7 @@ public class _315_CountofSmallerNumbersAfterSelf {
         }
         return Arrays.asList(res);
     }
+    //  3 3 3
 
     private int findIndex(List<Integer> list, int target) {
         if (list.size() == 0) return 0;
