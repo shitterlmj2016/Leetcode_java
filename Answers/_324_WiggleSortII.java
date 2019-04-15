@@ -44,7 +44,7 @@ public class _324_WiggleSortII {
             }
             index += 2;
         }
-        System.arraycopy(temp, 0, nums, 0, n);
+        System.arraycopy(temp, 0, nums, 0, n); //注意数组的copy是怎么写的
     }
 
     /**

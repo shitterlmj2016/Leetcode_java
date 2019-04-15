@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 /**
  * @program: Leetcode_java
@@ -44,7 +41,7 @@ public class _336_PalindromePairs {
 
     private boolean isPalindrome(String s) {
         int lo = 0;
-        int hi = s.length()-1 ;
+        int hi = s.length() - 1;
         while (lo <= hi) {
             char c1 = s.charAt(lo);
             char c2 = s.charAt(hi);
@@ -53,5 +50,8 @@ public class _336_PalindromePairs {
             hi--;
         }
         return true;
+    }
+
+    public static void main(String[] args) {
     }
 }

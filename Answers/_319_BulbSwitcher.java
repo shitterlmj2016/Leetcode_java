@@ -30,7 +30,9 @@ public class _319_BulbSwitcher {
 
      time : O(1)
      space : O(1)
-
+     /*
+     判断因数个数，因数个数为奇数则反转奇数次， 只有完全平方数因数才是奇数，所以返回n以内完全平方数个数
+     */
 
      * @param n
      * @return
